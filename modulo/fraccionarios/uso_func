@@ -1,0 +1,10 @@
+
+rom sys import path
+
+path.append('..\\modulo')
+
+import suma_fraccionarios
+
+print(suma_fraccionarios.sumar(7,5))
+print(suma_fraccionarios.resta(2334,123))
+
